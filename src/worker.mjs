@@ -72,6 +72,11 @@ const handleOPTIONS = async () => {
 const makeFetchOptions = (options = {}) => ({
   ...options,
   cf: {
+    // 'JP' - 日本
+    // 'US' - 美国
+    // 'GB' - 英国
+    // 'SG' - 新加坡
+    // 'DE' - 德国
     // Specify the country code, e.g. 'US', 'JP', 'GB' etc.
     country: "US",
   },
